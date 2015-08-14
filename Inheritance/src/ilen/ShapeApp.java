@@ -5,7 +5,7 @@ public class ShapeApp {
 	Point A,B,C;
 		
 	public ShapeApp() {
-		// constructor
+		// default constructor
 		A = new Point(1,5);
 		B = new Point(2,8);
 		C = new Point(6,8);
