@@ -3,6 +3,7 @@ package ilen;
 public class ShapeApp {
 	
 	Point A,B,C;
+		
 	public ShapeApp() {
 		// constructor
 		A = new Point(1,5);
