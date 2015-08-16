@@ -1,4 +1,4 @@
-package ilen;
+package ilentt.ilenlab.com.inheritance;
 
 public class Rectangle extends Shape {
 

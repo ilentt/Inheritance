@@ -1,4 +1,4 @@
-package ilen;
+package ilentt.ilenlab.com.inheritance;
 
 public class ShapeApp {
 	
@@ -30,6 +30,11 @@ public class ShapeApp {
 	public void RectangleMod() {
 		//Rectangle r = new Rectangle(25,42);
 		Shape r = new Rectangle(25,42);
+		System.out.println("\nShape is: " + r.getShapeName());
+		System.out.println("Size is: " + r.toString());
+		System.out.println("Perimeter is: " + r.getPerimeter());
+		
+		r = new Rectangle("My Rectangle",42,59);
 		System.out.println("\nShape is: " + r.getShapeName());
 		System.out.println("Size is: " + r.toString());
 		System.out.println("Perimeter is: " + r.getPerimeter());

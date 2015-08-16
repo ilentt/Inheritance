@@ -1,4 +1,4 @@
-package ilen;
+package ilentt.ilenlab.com.inheritance;
 
 public abstract class Shape {
 	// name for example Square, Circle, Rectangle, 

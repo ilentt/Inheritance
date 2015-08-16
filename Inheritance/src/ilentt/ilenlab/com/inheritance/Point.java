@@ -1,5 +1,4 @@
-package ilen;
-
+package ilentt.ilenlab.com.inheritance;
 
 public class Point {
 	private int x;
