@@ -1,65 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.1.8" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
   realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
-  <class id="1" language="java" name="ilen.Shape" project="Inheritance" file="/Inheritance/src/ilen/Shape.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="193" y="127"/>    
+  <class id="1" language="java" name="ilentt.ilenlab.com.inheritance.Shape" project="Inheritance" 
+    file="/Inheritance/src/ilentt/ilenlab/com/inheritance/Shape.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="155" y="185"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="ilen.Rectangle" project="Inheritance" file="/Inheritance/src/ilen/Rectangle.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="87" y="380"/>    
+  <class id="2" language="java" name="ilentt.ilenlab.com.inheritance.Rectangle" project="Inheritance" 
+    file="/Inheritance/src/ilentt/ilenlab/com/inheritance/Rectangle.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="65" y="464"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="ilen.Point" project="Inheritance" file="/Inheritance/src/ilen/Point.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="560" y="230"/>    
+  <class id="3" language="java" name="ilentt.ilenlab.com.inheritance.Point" project="Inheritance" 
+    file="/Inheritance/src/ilentt/ilenlab/com/inheritance/Point.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="454" y="461"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="ilen.Circle" project="Inheritance" file="/Inheritance/src/ilen/Circle.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="265" y="376"/>    
+  <class id="4" language="java" name="ilentt.ilenlab.com.inheritance.ShapeApp" project="Inheritance" 
+    file="/Inheritance/src/ilentt/ilenlab/com/inheritance/ShapeApp.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="454" y="184"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="ilen.ShapeApp" project="Inheritance" file="/Inheritance/src/ilen/ShapeApp.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="389" y="132"/>    
+  <class id="5" language="java" name="ilentt.ilenlab.com.inheritance.Circle" project="Inheritance" 
+    file="/Inheritance/src/ilentt/ilenlab/com/inheritance/Circle.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="141" x="173" y="351"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <dependency id="6">    
-    <bendpoint x="274" y="133"/>    
+  <generalization id="6">    
     <end type="SOURCE" refId="5"/>    
     <end type="TARGET" refId="1"/>  
-  </dependency>  
+  </generalization>  
   <association id="7">    
-    <bendpoint x="266" y="230"/>    
-    <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="8" name="A">        
-        <position height="18" width="16" x="461" y="208"/>      
-      </attribute>      
-      <multiplicity id="9" minimum="0" maximum="1">        
-        <position height="16" width="23" x="453" y="235"/>      
-      </multiplicity>    
+    <bendpoint x="577" y="461"/>    
+    <bendpoint x="577" y="406"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="8" name="P"/>      
+      <multiplicity id="9" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="3" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
@@ -68,37 +64,18 @@
     <end type="SOURCE" refId="2"/>    
     <end type="TARGET" refId="1"/>  
   </generalization>  
-  <association id="11">    
-    <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="12" name="B">        
-        <position height="18" width="15" x="445" y="264"/>      
-      </attribute>      
-      <multiplicity id="13" minimum="0" maximum="1">        
-        <position height="16" width="23" x="451" y="286"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="3" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <generalization id="14">    
+  <dependency id="11">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="12">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="13">    
     <end type="SOURCE" refId="4"/>    
     <end type="TARGET" refId="1"/>  
-  </generalization>  
-  <association id="15">    
-    <bendpoint x="559" y="414"/>    
-    <bendpoint x="675" y="414"/>    
-    <bendpoint x="675" y="230"/>    
-    <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="16" name="P">        
-        <position height="18" width="14" x="647" y="210"/>      
-      </attribute>      
-      <multiplicity id="17" minimum="0" maximum="1">        
-        <position height="16" width="23" x="649" y="238"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="3" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
+  </dependency>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    
